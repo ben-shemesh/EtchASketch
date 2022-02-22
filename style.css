@@ -1,0 +1,13 @@
+body {
+  display: flex;
+}
+#sketch-container {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  border: 3px red solid;
+}
+.grid-squares {
+  width: 16px;
+  height: 16px;
+  border: 2px greenyellow solid;
+}
