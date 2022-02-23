@@ -1,13 +1,39 @@
 body {
   display: flex;
+  flex-direction: column;
+  background: rgb(41, 40, 40);
+  border: 3px yellow solid;
 }
-#sketch-container {
-  display: grid;
-  grid-template-columns: 60px 60px;
-  border: 3px red solid;
+#top {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border: blue 5px solid;
+  align-items: center;
+  height: 100px;
 }
-.grid-squares {
-  width: 16px;
-  height: 16px;
-  border: 2px greenyellow solid;
+#title-Name {
+  display: flex;
+  font-size: 36px;
+  border: red 2px solid;
+  color: rgb(176, 245, 179);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0),
+    0 0 10px rgb(0, 139, 7);
+}
+.left-panal {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  border: rgb(46, 90, 233) 5px solid;
+}
+#color {
+  display: flex;
+  border: orange 3px solid;
+  color: white;
+  font-size: 36px;
+}
+.right-panal {
+  display: flex;
+  border: orangered 5px solid;
+  margin-left: auto;
 }
