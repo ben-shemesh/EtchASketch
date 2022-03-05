@@ -4,19 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Etch-A-Sketch</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="top">
-      <header id="title-Name">Etch A Sketch</header>
-    </div>
-    <div class="left-panal">
-      <div id="color">color</div>
-      <div id="color">side</div>
-    </div>
-    <div class="right-panal">
-      <div id="restar">restart</div>
+    <div class="flex-container">
+      <div class="title"><h1>Ethch A Sketch</h1></div>
+      <div class="content">
+        <div class="board"></div>
+        <div class="buttons">
+          <button>Red</button>
+          <button>Black</button>
+          <button>Rainbow</button>
+          <button>Eraser</button>
+        </div>
+        <div>
+          <input type="text" placeholder="Size Of Board" value="16" />
+          <button>Set Size</button>
+        </div>
+      </div>
     </div>
   </body>
+  <script src="app.js"></script>
 </html>
